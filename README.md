@@ -22,7 +22,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | Il futuro con C# 8: addio ai null | [Materiale][LinkCSharp] |
 | Sviluppare plug-in cross-platform con .NET Standard e Xamarin |  |
 | Introduzione a ServiceStack per la costruzione di API | |
-| SignalR, il WebSocket che tanto ci mancava |  |
+| SignalR, il WebSocket che tanto ci mancava | [Materiale][LinkSignalr]  |
 | All about the SharePoint Framework (SPFx) | |
 
    [LinkML]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/08%20-%20Laboratorio%20di%20Machine%20Learning%20in%20ML.NET>
