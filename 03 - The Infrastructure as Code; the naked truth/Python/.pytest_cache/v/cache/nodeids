@@ -1,0 +1,7 @@
+[
+  "test_redis.py::test_redis_is_installed[local]", 
+  "test_redis.py::test_config_file[local]", 
+  "test_redis.py::test_service_running[local]", 
+  "test_redis.py::test_socket_listening[local]", 
+  "test_redis.py::test_command_output[local]"
+]

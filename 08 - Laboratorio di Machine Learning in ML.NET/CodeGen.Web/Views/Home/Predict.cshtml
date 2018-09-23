@@ -1,0 +1,98 @@
+﻿@page
+@model CodeGen.Web.Models.HeartDataViewModel
+
+@{
+}
+
+<form method="POST" action="/Home/PredictDisease">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <br />
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputEmail4">Name</label>
+                            <input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Age</label>
+                            <input type="number" step="0.01" class="form-control" id="Age" name="Age" placeholder="Age">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Sex</label>
+                            <input type="number" step="0.01" class="form-control" id="Sex" name="Sex" placeholder="Sex">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Cp</label>
+                            <input type="number" step="0.01" class="form-control" id="Cp" name="Cp" placeholder="Cp">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">TrestBps</label>
+                            <input type="number" step="0.01" class="form-control" id="TrestBps" name="TrestBps" placeholder="TrestBps">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Chol</label>
+                            <input type="number" step="0.01" class="form-control" id="Chol" name="Chol" placeholder="Chol">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Fbs</label>
+                            <input type="number" step="0.01" class="form-control" id="Fbs" name="Fbs" placeholder="Fbs">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Restecg</label>
+                            <input type="number" step="0.01" class="form-control" id="Restecg" name="Restecg" placeholder="Restecg">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Thalach</label>
+                            <input type="number" step="0.01" class="form-control" id="Thalach" name="Thalach" placeholder="Thalach">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Exang</label>
+                            <input type="number" step="0.01" class="form-control" id="Exang" name="Exang" placeholder="Exang">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">OldPeak</label>
+                            <input type="number" step="0.01" class="form-control" id="OldPeak" name="OldPeak" placeholder="OldPeak">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Slope</label>
+                            <input type="number" step="0.01" class="form-control" id="Slope" name="Slope" placeholder="Slope">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Ca</label>
+                            <input type="number" step="0.01" class="form-control" id="Ca" name="Ca" placeholder="Ca">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Thal</label>
+                            <input type="number" step="0.01" class="form-control" id="Thal"  name="Thal" placeholder="Thal">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-success">Salva</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>

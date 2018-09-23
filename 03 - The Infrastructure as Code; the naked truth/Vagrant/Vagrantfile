@@ -1,0 +1,112 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+require 'rbconfig'
+require 'getoptlong'
+require 'yaml'
+
+opts = GetoptLong.new(
+  [ '--osarch', GetoptLong::OPTIONAL_ARGUMENT ],
+  [ '--secrets', GetoptLong::OPTIONAL_ARGUMENT ]
+)
+
+os_arch = ''
+secrets = ''
+
+opts.each do |opt, arg|
+  case opt
+    when '--osarch'
+      os_arch = arg
+    when '--secrets'
+      secrets = arg
+  end
+end
+
+if os_arch == '' 
+  os_arch = 'linux'
+end
+if secrets == ''
+  secrets = 'secrets'
+end
+
+# puts os_arch
+# puts secrets
+
+vmArchDefinitionFile = [ os_arch , 'yml' ].join('.')
+vmArchDefinitionSecrets = [ secrets , 'yml' ].join('.')
+
+# $env:VM_ARCH = "linux"; vagrant up; vagrant reload
+# $env:VM_ARCH = "windows"; vagrant up; vagrant reload
+
+# vmArchDefinitionFile = [ENV["VM_ARCH"] || 'linux','yml'].join('.')
+# vmArchDefinitionSecrets = [ENV["VM_SECRETS"] || 'secrets','yml'].join('.')
+
+# puts vmArchDefinitionFile
+# puts vmArchDefinitionSecrets
+
+CWD = File.dirname(File.expand_path(__FILE__))
+
+VMArch = YAML.load_file(File.join(CWD , vmArchDefinitionFile))
+VMSecrets = YAML.load_file(File.join(CWD , vmArchDefinitionSecrets))
+
+options_file = ['options',os_arch,'rb'].join('.')
+options_file = File.join(CWD , options_file)
+puts options_file
+options = File.expand_path(options_file, __FILE__)
+eval File.read(options) if File.exists?(options)
+
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at
+  # https://docs.vagrantup.com.
+
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://vagrantcloud.com/search.
+  config.vm.box = VMArch["vagrant_box"]
+  config.vm.define VMArch["vagrant_name"]
+  config.vm.guest = VMArch["vagrant_os"]
+  config.vm.communicator = VMArch["vm_communicator"]
+  config.vm.network "forwarded_port", guest: 8011, host: 8080, auto_correct: true
+  #config.vm.network "forwarded_port", guest: 8011, host: 8011
+  
+  #config.ssh.insert_key = true
+  #config.ssh.username = 'root'
+  #config.ssh.password = 'vagrant'
+  #config.ssh.private_key_path = ["../Keys/PrivateKey/privatekey06112017"]
+	
+
+  config.vm.network VMArch["vagrant_network"], bridge: VMArch["vagrant_bridge"] 
+
+  config.vm.synced_folder ".", "/vagrant", 
+      type: "smb", 
+      smb_username: "#{VMSecrets["SMB"]["username"]}",
+      smb_password: "#{VMSecrets["SMB"]["password"]}",
+      mount_options: [ 
+        "username=#{VMSecrets["SMB"]["username"]}",
+        "password=#{VMSecrets["SMB"]["password"]}",
+        "vers=3.0" 
+      ]
+
+  config.vm.provider VMArch["vagrant_provider"] do |h|
+    h.vmname = VMArch["machine_name"]
+    h.maxmemory = VMArch["machine_ram"]
+    h.cpus = VMArch["machine_cpu"]
+    h.enable_virtualization_extensions = true
+    h.linked_clone = true
+
+    # h.vm_integration_services = {
+    #   guest_service_interface: true  #<---------- this line enables Copy-VMFile
+    # }
+  end
+
+  provision_file = ['provision',os_arch,'rb'].join('.')
+  provision_file = File.join(CWD , provision_file)
+  puts provision_file
+  provision = File.expand_path(provision_file, __FILE__)
+  eval File.read(provision) if File.exists?(provision)
+
+end

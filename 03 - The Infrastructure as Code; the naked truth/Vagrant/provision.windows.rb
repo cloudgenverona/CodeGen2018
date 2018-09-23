@@ -1,0 +1,5 @@
+config.vm.provision :shell, path: "scripts/install-iis.cmd"
+config.vm.provision :shell, path: "scripts/delete-default-iis-website.ps1"
+config.vm.provision :shell, path: "scripts/install-dot-net.ps1"
+config.vm.provision :shell, path: "scripts/install-dot-net-45.cmd"
+config.vm.provision :shell, path: "scripts/install-octopus-tentacle.cmd"

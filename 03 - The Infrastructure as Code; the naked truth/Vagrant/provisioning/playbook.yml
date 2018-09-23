@@ -1,0 +1,18 @@
+# Ansible playbook for a LEMP server.
+#
+# @author Jeff Geerling (2014).
+
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: yes
+
+  vars_files:
+    - vars/main.yml
+
+  roles:
+    - geerlingguy.firewall
+    - geerlingguy.repo-epel
+    - geerlingguy.repo-remi
+    - geerlingguy.mysql
+    - geerlingguy.nginx
+    - geerlingguy.php

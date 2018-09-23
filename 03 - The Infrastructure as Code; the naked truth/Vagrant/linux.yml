@@ -1,0 +1,13 @@
+local_domain: &local_domain "vagrant.local"
+private_ip: &private_ip "10.10.10.10"
+vagrant_name: &vagrant_name "ubuntu"
+vagrant_os: &vagrant_os "linux"
+machine_name: &machine_name "vag-ubuntu-xenial64"
+machine_ram: &machine_ram "2048" # auto, 1024
+machine_cpu: &machine_cpu "2" # auto, 1
+vm_communicator: &vm_communicator "ssh"
+vagrant_box: &vagrant_box "generic/ubuntu1604" # bento/ubuntu-16.04
+vagrant_provider: &vagrant_provider "hyperv"
+vagrant_network: &vagrant_network "public_network"
+vagrant_bridge: &vagrant_bridge "VagrantExNet"
+VMBox: *vagrant_box
