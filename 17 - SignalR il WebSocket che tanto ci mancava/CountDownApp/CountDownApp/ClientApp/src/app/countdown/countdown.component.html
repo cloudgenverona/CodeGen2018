@@ -1,0 +1,13 @@
+<h2>CountDown</h2>
+
+<p>This component demonstrates RealTime CountDown.</p>
+
+<form novalidate (ngSubmit)="startCountDown()" #countDownForm="ngForm">
+  <input type="number" required
+         [(ngModel)]="startCountDownValue" name="startCountDownValue" />
+  <button type="submit" class="btn btn-success">Avvia</button>
+</form>
+
+<div *ngIf="currentValue >= 0">
+  <h1>{{currentValue}}</h1>
+</div>

@@ -1,0 +1,14 @@
+.form-error {
+  color:red;
+  padding: 5px;
+  font-size: .8em;
+  font-weight: 600;
+}
+#login-container {
+  border-radius: 10px;
+  border: 2px solid #CECECE;
+  padding: 50px;
+}
+.container {
+  padding: 100px;
+}

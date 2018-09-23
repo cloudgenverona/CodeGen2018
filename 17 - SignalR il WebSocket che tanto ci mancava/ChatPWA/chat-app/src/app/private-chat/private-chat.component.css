@@ -1,0 +1,45 @@
+
+form {
+  padding: 10px;
+}
+input {
+  margin: 20px;
+  width: 50%;
+  display: inline-block;
+}
+
+button {
+  margin-top: -6px;
+  display: inline-block;
+}
+
+.chat-title {
+  position: fixed;
+  width: 60%;
+  text-align: center;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  padding: 8px;
+  padding-left: 20px;
+  z-index: 9999999;
+}
+.chat-title span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.chat-title i {
+  padding: 10px;
+}
+.container {
+  padding-top: 70px;
+  width: 60%;
+  padding-bottom: 150px !important;
+}
+.fixed-bottom {
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  background-color:white;
+}
+.messages-box {
+  padding-top: 60px;
+}

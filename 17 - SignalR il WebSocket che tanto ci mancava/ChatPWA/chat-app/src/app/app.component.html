@@ -1,0 +1,31 @@
+<ng-template #loggedIn>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/home" routerLinkActive="active">
+      <i class="fa fa-home"></i> &nbsp; Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/chat-list" routerLinkActive="active">
+      <i class="fa fa-comments"></i> &nbsp; Chat</a>
+  </li>
+</ng-template>
+<ng-template #loggedOut>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/login" routerLinkActive="active">
+      <i class="fa fa-sign-in"></i> &nbsp; Login</a>
+  </li>
+</ng-template>
+<nav class="navbar navbar-expand navbar-dark bg-primary" role="navigation">
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <ng-container *ngIf="this.loginService.getToken() !== undefined; then loggedIn; else loggedOut">
+      </ng-container>
+    </ul>
+    <span class="navbar-text">
+      {{this.loginService.getUsername()}}
+    </span>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<app-alerts></app-alerts>

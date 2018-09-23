@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessApp.WPF", "ServerlessApp.WPF\ServerlessApp.WPF.csproj", "{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessApp.Triggers", "ServerlessApp.Triggers\ServerlessApp.Triggers.csproj", "{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessApp.Model", "ServerlessApp.Model\ServerlessApp.Model.csproj", "{7AEB4E2C-29A0-4B09-903E-4CF79D594656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Mock|Any CPU = Mock|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Mock|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Mock|Any CPU.Build.0 = Release|Any CPU
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC6D93-D0C1-432F-9098-BE421C5C0B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Mock|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Mock|Any CPU.Build.0 = Debug|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FDC177-762A-4170-A8CB-F33D9CE8D0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Mock|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Mock|Any CPU.Build.0 = Debug|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEB4E2C-29A0-4B09-903E-4CF79D594656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C87A16BE-DFF7-4434-9B54-7B9E0844D38E}
+	EndGlobalSection
+EndGlobal

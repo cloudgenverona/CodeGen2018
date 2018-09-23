@@ -1,0 +1,6 @@
+<div class="message" [ngClass]="{
+  'others': !isMyMessage(),
+  'mine': isMyMessage()}"
+  [attr.data-author]="isMyMessage() ? 'You' : this.message.From.Username">
+  {{this.message.TextMessage}}
+</div>

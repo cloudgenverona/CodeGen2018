@@ -1,0 +1,33 @@
+.message {
+  border-radius: 2em;
+  padding:1em;
+  background-color:gray;
+  width:auto;
+  display:inline-block;
+  clear:both;
+  color:white;
+  margin:0.3em 0 1.6em 0;
+  position:relative;
+}
+.message::after {
+  content: attr(data-author);
+  display:block;
+  color:black;
+  position:absolute;
+  bottom:-1.2em;
+}
+.message.mine {
+  float:right;
+  border-bottom-right-radius: 0;
+  background-color: blue;
+}
+.message.mine::after {
+  right:0;
+}
+.message.others {
+  float:left;
+  border-bottom-left-radius: 0;
+}
+.message.others::after {
+  left: 0;
+}

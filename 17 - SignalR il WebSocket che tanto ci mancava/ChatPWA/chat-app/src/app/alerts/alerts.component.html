@@ -1,0 +1,5 @@
+<div class="alerts">
+    <p *ngFor="let alert of alerts">
+        <ngb-alert [type]="alert.getType()" (close)="closeError(alert)" [dismissible]='true'>{{ alert.message }}</ngb-alert>
+    </p>
+</div>

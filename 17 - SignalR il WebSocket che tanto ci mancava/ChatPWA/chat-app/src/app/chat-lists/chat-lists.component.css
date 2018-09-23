@@ -1,0 +1,22 @@
+.row {
+  text-align: center;
+  padding: 15px;
+}
+.fa {
+  padding: 10px;
+}
+.users-online {
+  background-color: #E0E0E0;
+  border-radius: 10px;
+}
+.groups-online {
+  background-color: #E0E0E0;
+  border-radius: 10px;
+}
+.container {
+  padding: 40px;
+}
+
+.row-compressed {
+  padding: 0px !important;
+}

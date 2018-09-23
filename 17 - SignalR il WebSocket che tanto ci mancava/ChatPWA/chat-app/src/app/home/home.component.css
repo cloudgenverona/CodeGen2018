@@ -1,0 +1,21 @@
+#home-container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+#home-container img {
+  width: 300px;
+  height: 300px;
+}
+
+.row {
+  padding: 60px;
+}
+#credits {
+  font-size: .8em;
+  padding-top: 30px;
+  font-style: italic;
+}
+.container {
+  padding: 100px;
+}

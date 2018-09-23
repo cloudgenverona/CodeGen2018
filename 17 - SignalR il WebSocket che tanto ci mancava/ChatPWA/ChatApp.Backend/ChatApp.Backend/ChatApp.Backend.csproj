@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>A639BD2F-4F4B-4D9D-A4BA-FFA0CE45A15C</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.0.0-preview1-10015" />
+    <PackageReference Include="Microsoft.Azure.SignalR.Protocols" Version="1.0.0-preview1-10015" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

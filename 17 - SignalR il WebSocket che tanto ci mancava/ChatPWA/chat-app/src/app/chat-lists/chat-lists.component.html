@@ -1,0 +1,77 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        <div class="col users-online">
+          <i class="fa fa-user"></i>
+          <span>Utenti online</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="list-group" *ngFor="let user of this.onlineDataStore.usersConnectedList">
+            <li class="list-group-item list-group-item-action list-group-item-light d-flex justify-content-between align-items-center"
+              (click)="privateChat(user)">
+              <span>{{user.Username}}</span>
+              <span class="badge badge-primary badge-pill">{{user.ConnectionId}}</span>
+            </li>
+          </ul>
+          <hr/>
+          <small>Utenti online totali: {{this.onlineDataStore.usersConnected ? this.onlineDataStore.usersConnected : 0}}</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col groups-online">
+          <i class="fa fa-users"></i>
+          <span>Gruppi online</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <form class="form-inline">
+              <div class="form-group">
+                <input [(ngModel)]="addGroupName" name="addGroupName" type="text" required class="form-control" placeholder="">
+                <button type="submit" class="btn btn-primary fa fa-plus-square" (click)="addGroup()">                  
+                </button>
+              </div>
+            </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="list-group" *ngFor="let group of this.onlineDataStore.groupsList">
+            <li class="list-group-item list-group-item-action list-group-item-light d-flex justify-content-between align-items-center">
+              <div class="container-fluid">
+                <div class="row row-compressed">
+                  <div class="col" (click)="groupChat(group)">
+                    <span>{{group}}</span>
+                  </div>
+                </div>
+                <div class="row row-compressed">
+                  <div class="col">
+                    <form class="form-inline">
+                      <input [(ngModel)]="updateGroupName" name="updateGroupName" type="text" class="form-control" placeholder="">
+                      &nbsp;
+                      <div class="btn-group" role="group">
+                        <button type="submit" class="btn btn-info fa fa-pencil" (click)="editGroup(group)"></button>
+                        <button type="button" class="btn btn-danger fa fa-trash" (click)="deleteGroup(group)"></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>              
+            </li>
+          </ul>          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <hr/>
+          <small>Gruppi online totali: {{this.onlineDataStore.groups ? this.onlineDataStore.groups : 0}}</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

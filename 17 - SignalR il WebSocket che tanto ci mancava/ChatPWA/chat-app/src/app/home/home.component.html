@@ -1,0 +1,33 @@
+<div class="container">
+  <div id="home-container">
+    <div class="row">
+      <div class="column">
+        <img src="../../assets/chat_demo.jpg" />
+      </div>
+      <div class="column">
+        <div class="row">
+          <div class="column">
+            <h1>Chat demo</h1>
+            <p *ngIf="this.loginService.getUsername() != undefined; else loggedOut" class="login-preview">
+              Welcome: {{this.loginService.getUsername()}}
+            </p>
+
+            <ng-template #loggedOut class="login-preview">
+              Login to start!
+            </ng-template>
+
+            <p id="credits"> Developer:
+              <a href="https://github.com/andreatosato">
+                Andrea Tosato
+              </a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-alerts></app-alerts>
+
+
+</div>

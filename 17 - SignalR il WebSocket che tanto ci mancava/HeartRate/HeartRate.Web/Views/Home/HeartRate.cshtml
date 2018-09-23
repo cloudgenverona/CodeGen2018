@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Hear Rate";
+    Layout = "_Layout";
+}
+
+<div class="row text-center" style="margin:10px;">
+    <button type="button" class="btn btn-primary" onclick="clearGraph()"><span class="glyphicon glyphicon-erase"></span></button>
+</div>
+
+<div class="row">
+    <div id="heartRateContainer" style="height: 75%; width: 85%; position: absolute"></div>
+</div>
+
+@section Scripts
+{
+    <script src="~/lib/signalr/signalr.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="~/js/hubs/heartrate.js"></script>
+}

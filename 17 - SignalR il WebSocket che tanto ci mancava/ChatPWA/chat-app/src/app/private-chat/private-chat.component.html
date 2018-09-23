@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col chat-title">
+      <i class="fa fa-comments"></i> Chatting with:
+      <span>{{this.toUser.Username !== undefined ? this.toUser.Username : '' }}</span>
+    </div>
+  </div>
+  <div class="messages-box">
+    <div *ngFor="let message of getMessages()">
+      <app-chat-message [message]="message" [currentUser]="this.privateChatDataStore.currentUser"></app-chat-message>
+    </div>
+  </div>
+  <div class="fixed-bottom">
+    <div class="row text-center">
+      <div class="col">
+        <form #sendMessage="ngForm" (ngSubmit)="sendMessage.form.valid && addMessage(); sendMessage.reset();">
+          <div class="form-group">
+            <input type="text" class="form-control" required [(ngModel)]="newMessage.TextMessage" name="newMessage" placeholder="Type your message here..."
+              autofocus>
+            <button type="submit" class="btn btn-success" [disabled]="!sendMessage.form.valid">
+              <i class="fa fa-play"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col chat-title">
+      <i class="fa fa-comments"></i> Chatting in:
+      <span>{{this.groupName }}</span>
+      <br>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary fa fa-users leave-button" (click)="showUsersConnected(content)"></button>
+        <button type="button" class="btn btn-primary fa fa-sign-out leave-button" (click)="leaveGroup()"></button>        
+      </div>
+    </div>
+  </div>
+  <div class="messages-box">
+    <div *ngFor="let message of getMessages()">
+      <app-chat-message [message]="message" [currentUser]="this.groupChatDataStore.currentUser"></app-chat-message>
+    </div>
+  </div>
+  <div class="fixed-bottom">
+    <div class="row text-center">
+      <div class="col">
+        <form #sendMessage="ngForm" (ngSubmit)="sendMessage.form.valid && addMessage(); sendMessage.reset();">
+          <div class="form-group">
+            <input type="text" class="form-control" required [(ngModel)]="newMessage.TextMessage" name="newMessage" placeholder="Type your message here..."
+              autofocus>
+            <button type="submit" class="btn btn-success" [disabled]="!sendMessage.form.valid">
+              <i class="fa fa-play"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">User Connected</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <ul class="list-group" *ngFor="let user of getCurrentChat().users">
+      <li class="list-group-item">{{user.Username}}</li>
+    </ul>
+  </div>
+</ng-template>
