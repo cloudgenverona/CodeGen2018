@@ -9,7 +9,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | ------ | ------ |
 | Sviluppare applicazioni moderne con Azure, .NET Core e Visual Studio | |
 | The Infrastructure as Code; the naked truth | [Materiale][LinkITPro] |
-| Applicare patterns di sviluppo con Azure | |
+| Applicare patterns di sviluppo con Azure | [Materiale][LinkAzureCloud] |
 | Discovering ActorModel: Akka.Net vs Microsoft Orleans |  |
 | What's new in Azure App Service for DevOps |  |
 | Testare una soluzione Service Fabric e vivere felici!!! | |
@@ -20,7 +20,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | Voulez-Vue | |
 | Azure Sphere; La sicurezza per intelligent edge con le 7 proprieta' dei Device Altamente Sicuri |  |
 | Il futuro con C# 8: addio ai null | [Materiale][LinkCSharp] |
-| Sviluppare plug-in cross-platform con .NET Standard e Xamarin |  |
+| Sviluppare plug-in cross-platform con .NET Standard e Xamarin | [Materiale][LinkXamarin] |
 | Introduzione a ServiceStack per la costruzione di API | |
 | SignalR, il WebSocket che tanto ci mancava | [Materiale][LinkSignalr]  |
 | All about the SharePoint Framework (SPFx) | |
@@ -30,3 +30,14 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkITPro]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/03%20-%20The%20Infrastructure%20as%20Code%3B%20the%20naked%20truth>
    [LinkCSharp]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/14%20-%20Il%20futuro%20con%20C%23%208%20addio%20ai%20null>
    [LinkSignalr]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/17%20-%20SignalR%20il%20WebSocket%20che%20tanto%20ci%20mancava>
+   [LinkAzureCloud]: 
+   [LinkXamarin]: 
+   [LinkIntro]: 
+   [LinkOrleans]: 
+   [LinkFabric]: 
+   [LinkFunctions]: 
+   [LinkContainers]: 
+   [LinkVue]: 
+   [LinkSphere]: 
+   [LinkServiceStack]: 
+   [LinkSharepoint]: 
