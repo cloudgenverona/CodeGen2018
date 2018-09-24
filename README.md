@@ -30,8 +30,8 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkITPro]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/03%20-%20The%20Infrastructure%20as%20Code%3B%20the%20naked%20truth>
    [LinkCSharp]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/14%20-%20Il%20futuro%20con%20C%23%208%20addio%20ai%20null>
    [LinkSignalr]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/17%20-%20SignalR%20il%20WebSocket%20che%20tanto%20ci%20mancava>
-   [LinkAzureCloud]: 
-   [LinkXamarin]: 
+   [LinkAzureCloud]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/04%20-%20Applicare%20patterns%20di%20sviluppo%20con%20Azure>
+   [LinkXamarin]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/15%20-%20Sviluppare%20plug-in%20cross-platform%20con%20.NET%20Standard%20e%20Xamarin>
    [LinkIntro]: 
    [LinkOrleans]: 
    [LinkFabric]: 
