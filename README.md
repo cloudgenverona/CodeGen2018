@@ -32,12 +32,12 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkSignalr]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/17%20-%20SignalR%20il%20WebSocket%20che%20tanto%20ci%20mancava>
    [LinkAzureCloud]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/04%20-%20Applicare%20patterns%20di%20sviluppo%20con%20Azure>
    [LinkXamarin]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/15%20-%20Sviluppare%20plug-in%20cross-platform%20con%20.NET%20Standard%20e%20Xamarin>
-   [LinkIntro]: <>
-   [LinkOrleans]: <>
-   [LinkFabric]: <>
-   [LinkFunctions]: <>
-   [LinkContainers]: <>
-   [LinkVue]: <>
-   [LinkSphere]: <>
-   [LinkServiceStack]: <>
-   [LinkSharepoint]: <>
+   [LinkIntro]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkOrleans]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkVue]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
