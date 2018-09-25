@@ -7,11 +7,11 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 
 | Sessione | Materiale |
 | ------ | ------ |
-| Sviluppare applicazioni moderne con Azure, .NET Core e Visual Studio | |
+| Keynote - Sviluppare applicazioni moderne con Azure, .NET Core e Visual Studio | [Materiale][LinkKeynote] |
 | The Infrastructure as Code; the naked truth | [Materiale][LinkITPro] |
 | Applicare patterns di sviluppo con Azure | [Materiale][LinkAzureCloud] |
 | Discovering ActorModel: Akka.Net vs Microsoft Orleans |  |
-| What's new in Azure App Service for DevOps |  |
+| What's new in Azure App Service for DevOps | [Materiale][LinkAppService] |
 | Testare una soluzione Service Fabric e vivere felici!!! | |
 | Laboratorio di Machine Learning in ML.NET | [Materiale][LinkML] |
 | Da un (Azure) Functions ad un'applicazione in 60 minuti |  |
@@ -21,7 +21,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | Azure Sphere; La sicurezza per intelligent edge con le 7 proprieta' dei Device Altamente Sicuri |  |
 | Il futuro con C# 8: addio ai null | [Materiale][LinkCSharp] |
 | Sviluppare plug-in cross-platform con .NET Standard e Xamarin | [Materiale][LinkXamarin] |
-| Introduzione a ServiceStack per la costruzione di API | |
+| Introduzione a ServiceStack per la costruzione di API | [Materiale][LinkServiceStack] |
 | SignalR, il WebSocket che tanto ci mancava | [Materiale][LinkSignalr]  |
 | All about the SharePoint Framework (SPFx) | |
 
@@ -32,12 +32,14 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkSignalr]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/17%20-%20SignalR%20il%20WebSocket%20che%20tanto%20ci%20mancava>
    [LinkAzureCloud]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/04%20-%20Applicare%20patterns%20di%20sviluppo%20con%20Azure>
    [LinkXamarin]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/15%20-%20Sviluppare%20plug-in%20cross-platform%20con%20.NET%20Standard%20e%20Xamarin>
-   [LinkIntro]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkKeynote]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/02%20-%20Keynote>
+   [LinkAppService]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/06%20-%20What's%20new%20in%20Azure%20App%20Service%20for%20DevOps>
+   [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/16%20-%20Introduzione%20a%20ServiceStack%20per%20la%20costruzione%20di%20API>
    [LinkOrleans]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkVue]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
+   [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>   
+   [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master> 
+
