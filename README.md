@@ -18,7 +18,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | Più Qubit per tutti! | [Materiale][LinkQsharp] |
 | Introduzione ad Azure Container Services per il Dev 3.0 |  |
 | Voulez-Vue | |
-| Azure Sphere; La sicurezza per intelligent edge con le 7 proprieta' dei Device Altamente Sicuri |  |
+| Azure Sphere; La sicurezza per intelligent edge con le 7 proprieta' dei Device Altamente Sicuri | [Materiale][LinkSphere] |
 | Il futuro con C# 8: addio ai null | [Materiale][LinkCSharp] |
 | Sviluppare plug-in cross-platform con .NET Standard e Xamarin | [Materiale][LinkXamarin] |
 | Introduzione a ServiceStack per la costruzione di API | [Materiale][LinkServiceStack] |
@@ -35,11 +35,11 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkKeynote]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/02%20-%20Keynote>
    [LinkAppService]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/06%20-%20What's%20new%20in%20Azure%20App%20Service%20for%20DevOps>
    [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/16%20-%20Introduzione%20a%20ServiceStack%20per%20la%20costruzione%20di%20API>
+   [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/13+-+Azure+Sphere+-+La+sicurezza+per+intelligent+edge+con+le+7+proprieta%27+dei+Device+Altamente+Sicuri>
    [LinkOrleans]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkVue]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>   
    [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master> 
 
