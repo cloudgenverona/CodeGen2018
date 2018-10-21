@@ -36,7 +36,7 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkAppService]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/06%20-%20What's%20new%20in%20Azure%20App%20Service%20for%20DevOps>
    [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/16%20-%20Introduzione%20a%20ServiceStack%20per%20la%20costruzione%20di%20API>
    [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/13%20-%20Azure%20Sphere%20-%20La%20sicurezza%20per%20intelligent%20edge%20con%20le%207%20proprieta'%20dei%20Device%20Altamente%20Sicuri>
-   [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/09%20-%20Da%20un%20(Azure)%20Functions%20ad%20un%20applicazione%20in%2060%20minuti>
+   [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/09%20-%20Da%20un%20(Azure)%20Functions%20ad%20un'applicazione%20in%2060%20minuti>
    [LinkOrleans]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
