@@ -12,11 +12,11 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
 | Applicare patterns di sviluppo con Azure | [Materiale][LinkAzureCloud] |
 | Discovering ActorModel: Akka.Net vs Microsoft Orleans |  |
 | What's new in Azure App Service for DevOps | [Materiale][LinkAppService] |
-| Testare una soluzione Service Fabric e vivere felici!!! | |
+| Testare una soluzione Service Fabric e vivere felici!!! | [Materiale][LinkFabric] |
 | Laboratorio di Machine Learning in ML.NET | [Materiale][LinkML] |
 | Da un (Azure) Functions ad un'applicazione in 60 minuti | [Materiale][LinkFunctions] |
 | Più Qubit per tutti! | [Materiale][LinkQsharp] |
-| Introduzione ad Azure Container Services per il Dev 3.0 |  |
+| Introduzione ad Azure Container Services per il Dev 3.0 | [Materiale][]  |
 | Voulez-Vue | |
 | Azure Sphere; La sicurezza per intelligent edge con le 7 proprieta' dei Device Altamente Sicuri | [Materiale][LinkSphere] |
 | Il futuro con C# 8: addio ai null | [Materiale][LinkCSharp] |
@@ -37,9 +37,8 @@ In questo repository trovate il materiale dell'ultimo CodeGen (22/9/2018)
    [LinkServiceStack]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/16%20-%20Introduzione%20a%20ServiceStack%20per%20la%20costruzione%20di%20API>
    [LinkSphere]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/13%20-%20Azure%20Sphere%20-%20La%20sicurezza%20per%20intelligent%20edge%20con%20le%207%20proprieta'%20dei%20Device%20Altamente%20Sicuri>
    [LinkFunctions]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/09%20-%20Da%20un%20(Azure)%20Functions%20ad%20un'applicazione%20in%2060%20minuti>
+   [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/07%20-%20Testare%20una%20soluzione%20Service%20Fabric%20e%20vivere%20felici>
+   [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/11%20-%20Introduzione%20ad%20Azure%20Container%20Services%20per%20il%20Dev%203.0>
+   [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master/18%20-%20All%20about%20the%20SharePoint%20Framework%20(SPFx)>
    [LinkOrleans]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkFabric]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkContainers]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
    [LinkVue]: <https://github.com/CloudGenVR/CodeGen2018/tree/master>
-   [LinkSharepoint]: <https://github.com/CloudGenVR/CodeGen2018/tree/master> 
-
